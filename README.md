@@ -2,8 +2,8 @@
 
 
 This is a workshop repository that walks you through from getting an image from a webcam or camera 
-then using this image on various purposes including extracting features 
-for building histogram and applying histogram equalization to change the light of the image for brighter view. Then it
+to using this image on various purposes including extracting features 
+for building histogram, and then applying histogram equalization to change the light of the image for brighter view. Then it
 introduces you to necessary ingredients to build a mini document scanner application for you.
 
 ## Python Environment Setup
@@ -26,13 +26,13 @@ with conda or miniconda,
     $ pip install -r requirements.txt
 ```
 
-Once you have virtual environment is accessible,
+Once you have virtual environment accessible,
 
 ```shell
     (workshop) $ jupyter notebook
 ```
 
-You can start a Jupyter notebook session.
+you can start a Jupyter notebook session.
 
 
 ## Topics to Discuss
@@ -78,5 +78,5 @@ with some third-party applications on Android, you can easily digitize a documen
 
 
 ## Future Steps
-It would be great to have OCR to read the content of the document and extract to a txt or docx file for further process.
+It would be great to have Optical Character Recognition (OCR) to read the content of the document and extract to a txt or docx file for further process.
 
